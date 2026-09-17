@@ -1,0 +1,80 @@
+# --- data files (never commit) ---
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fasta
+*.fasta.gz
+*.fa
+*.fa.gz
+*.fai
+*.bam
+*.bam.bai
+*.cram
+*.sam
+*.bed.gz
+*.gff3.gz
+*.gtf.gz
+*.vcf.gz
+*.h5ad
+*.rds
+*.RDS
+*.bigwig
+*.bw
+
+# --- large intermediate results ---
+*.delta
+*.coords
+*.meryl
+*.mmi
+*.tbl
+*.tbl.gz
+*.cool
+*.mcool
+*.hic
+*.paf
+*.chain
+*.pileup
+
+# --- pipeline logs and scratch ---
+*.log
+*.out
+*.err
+*.error
+*.memtime
+*.o[0-9]*
+*.e[0-9]*
+slurm-*.out
+nohup.out
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- R ---
+.Rhistory
+.RData
+.Rproj.user/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# --- local configuration that must not be published ---
+.env
+*.local
+
+# --- keep the demos: their inputs and expected outputs are tiny and must be committed,
+#     even though some of them match the data-file patterns above ---
+!demo/**
+
+# --- but not the scratch directory a demo writes when it is run ---
+demo/**/work/
+
