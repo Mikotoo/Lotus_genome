@@ -1,0 +1,57 @@
+# Software versions used in this study
+#
+# tool    : program name as invoked
+# version : version used
+# purpose : what the tool was used for in this study
+# source  : canonical URL or DOI
+#
+tool	version	purpose	source
+AUGUSTUS	3.5.0	ab initio gene prediction	https://bioinf.uni-greifswald.de/augustus/
+BLAST+	2.14.1	protein and nucleotide homology search (blastp, blastn, makeblastdb)	https://blast.ncbi.nlm.nih.gov/
+BRAKER	3.0.8	gene prediction integrating RNA-seq, Iso-seq, homology and ab initio evidence	https://github.com/Gaius-Augustus/BRAKER
+BUSCO	5.8.3	assembly completeness against embryophyta_odb10	https://busco.ezlab.org/
+Barrnap	0.9	rRNA gene prediction	https://github.com/tseemann/barrnap
+CD-HIT-EST	4.8.1	clustering of tandem-repeat units at 85% identity	https://github.com/weizhongli/cdhit
+Cell Ranger	9.0.1	10x single-nucleus read processing	https://www.10xgenomics.com/support/software/cell-ranger
+DESeq2	1.46.0	pseudobulk FPKM and differential expression across cell types	https://bioconductor.org/packages/DESeq2/
+EDTA	2.2.2	de novo transposable-element annotation	https://github.com/oushujun/EDTA
+GETA	2.7.1	gene prediction combining transcript, homology and ab initio evidence	https://github.com/chenlianfu/geta
+HISAT2	2.2.1	RNA-seq read alignment	http://daehwankimlab.github.io/hisat2/
+HiC-Pro	3.1.0	Hi-C read processing and contact matrices	https://github.com/nservant/HiC-Pro
+HapHiC	1.0.7	Hi-C scaffolding of contigs into chromosomes	https://github.com/zengxiaofei/HapHiC
+Helixer	0.3.6	deep-learning gene structure prediction	https://github.com/weberlab-hhu/Helixer
+IsoSeq3	4.3.0	full-length Iso-Seq refinement and clustering	https://github.com/PacificBiosciences/IsoSeq
+JCVI	1.4.22	synteny-based validation of gene correspondence	https://github.com/tanghaibao/jcvi
+MUMmer4	4.0.0rc1	whole-genome alignment between assemblies and accessions	https://github.com/mummer4/mummer
+Merqury	1.3	reference-free consensus quality (QV)	https://github.com/marbl/merqury
+Mfuzz	2.62	soft clustering of expression time series	https://bioconductor.org/packages/Mfuzz/
+OrthoFinder	2.5.5	orthology inference and cross-species homologue classification	https://github.com/davidemms/OrthoFinder
+Pilon	1.24	short-read assembly correction	https://github.com/broadinstitute/pilon
+R	4.3.3	statistical analysis and plotting	https://www.r-project.org/
+Seurat	5.0.3	R single-cell object handling and marker analysis	https://satijalab.org/seurat/
+StainedGlass	0.6	sequence-identity plots of repeat arrays	https://github.com/mrvollger/StainedGlass
+StringTie	2.1.7	transcript assembly and quantification (TPM)	https://ccb.jhu.edu/software/stringtie/
+SyRI	1.7.0	structural variant detection and classification	https://github.com/schneebergerlab/syri
+TGS-GapCloser	2.0.0_dev0.1	scaffold gap closing with long reads	https://github.com/BGI-Qingdao/TGS-GapCloser
+TRF	4.09.1	tandem repeat discovery	https://tandem.bu.edu/trf/trf.html
+TeloComp	1.0.0	telomere composition and terminal-repeat analysis	https://github.com/Shuai-Nie/TeloComp
+WGCNA	1.73	weighted gene co-expression network analysis	https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/Rpackages/WGCNA/
+anndata	0.12.17	annotated single-cell data matrices	https://anndata.readthedocs.io/
+bedtools	2.31.1	interval operations, window generation, block merging and PAV analysis	https://bedtools.readthedocs.io/
+clusterProfiler	4.0	GO and KEGG enrichment	https://bioconductor.org/packages/clusterProfiler/
+eggNOG-mapper	2.1.13	functional annotation of predicted proteins	http://eggnog-mapper.embl.de/
+fastp	1.1.0	bulk RNA-seq read quality filtering	https://github.com/OpenGene/fastp
+hifiasm	0.25.0-r726	contig assembly from ONT ultra-long and PacBio HiFi reads	https://github.com/chhylp123/hifiasm
+leidenalg	0.10.2	graph-based clustering (Leiden algorithm)	https://github.com/vtraag/leidenalg
+limma	3.58.1	differential expression with linear models	https://bioconductor.org/packages/limma/
+merfin	v1.0	k-mer-spectrum-based polishing edit filtering	https://github.com/arangrhie/merfin
+minimap2	2.28-r1209	read and assembly alignment	https://github.com/lh3/minimap2
+plotsr	1.1.1	plotting SyRI structural rearrangement output	https://github.com/schneebergerlab/plotsr
+psych	2.5.6	correlation and significance testing for co-expression networks	https://cran.r-project.org/package=psych
+racon	liftover branch	long-read consensus correction during polishing	https://github.com/isovic/racon
+samtools	1.21	BAM/FASTA utilities, indexing and coverage	https://www.htslib.org/
+scanpy	1.12.1	single-cell analysis toolkit	https://scanpy.readthedocs.io/
+scDblFinder	1.16.0	doublet identification in single-nucleus data	https://bioconductor.org/packages/scDblFinder/
+scTenifoldKnk	1.0.1	virtual knockout perturbation analysis	https://github.com/cailab-tamu/scTenifoldKnk
+scvi-tools	1.4.3	sample integration and batch correction	https://docs.scvi-tools.org/
+seqkit	2.10.1	FASTA/FASTQ filtering and length statistics	https://github.com/shenwei356/seqkit
